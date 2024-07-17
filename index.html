@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>가위 바위 보 게임</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="image_area">
+      <img id="img" src="" />
+    </div>
+    <div class="score">
+      <div class="user">
+        <div class="user_text">사용자 점수 :&nbsp;</div>
+        <div class="user_score" id="user_score">0</div>
+      </div>
+      <div class="computer">
+        <div class="computer_text">컴퓨터 점수 :&nbsp;</div>
+        <div class="computer_score" id="computer_score">0</div>
+      </div>
+    </div>
+    <div class="button_area">
+      <input type="button" id="scissors" value="가위" />
+      <input type="button" id="rock" value="바위" />
+      <input type="button" id="paper" value="보" />
+    </div>
+    <div class="reset">
+      <input type="button" id="reset_btn" value="다시 시작하기" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

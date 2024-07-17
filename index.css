@@ -1,0 +1,84 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.image_area {
+  display: flex;
+  justify-content: center;
+}
+.score {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.computer {
+  margin-top: 30px;
+}
+.button_area {
+  display: flex;
+  justify-content: center;
+}
+.reset_end {
+  display: flex;
+  justify-content: center;
+}
+#reset_btn {
+  font-size: 30px;
+  font-weight: 1000;
+  border-radius: 10px;
+  padding: 40px 40px;
+  margin: 10px;
+  background-color: white;
+  color: red;
+}
+#end_btn {
+  font-size: 30px;
+  font-weight: 1000;
+  border-radius: 10px;
+  padding: 40px 40px;
+  margin: 10px;
+  background-color: white;
+  color: red;
+}
+
+#scissors {
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+}
+#rock {
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+}
+#paper {
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+}
+
+.computer {
+  display: flex;
+  justify-content: center;
+}
